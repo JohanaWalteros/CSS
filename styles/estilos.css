@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+* {
+    font-family: 'PT Sans Narrow', sans-serif;
+
+
+}
+
+/* Clase*/
+.titulo-principal {
+    text-align: center;
+    color: #490549;
+    /* Propiedad tamaño texto */
+    font-size: 28px;
+    /* propiedad sombras titulo 1)parametro: alto 2)p: ancho 3p: */
+    text-shadow: 2px 1px 2px #000;
+    /* propiedad para cambiar el texto */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contenedor-tarjetas .tarjeta .contenido-tarjeta span {
+    display: block;
+    /* poner en negrilla */
+    font-weight: bold;
+
+}
+
+.contenedor-tarjetas {
+    margin: 20px;
+    padding: 20px;
+    display: inline-flex
+}
+
+.contenedor-tarjetas .tarjeta {
+    box-shadow: 10px 10px 10px #E3E3E3;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background: #6471b9;
+    width: max-content;
+}
+
+.contenedor-tarjetas .tarjeta:first-child {
+    margin-right: 150px;
+}
+
+body {
+    background: #7c1fb9;
+}
